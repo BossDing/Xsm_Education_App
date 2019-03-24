@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity" >
+
+    <include
+        android:id="@+id/title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/top_title_layout" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/title_layout"
+        android:background="@drawable/x_bind_input_bg" >
+
+        <LinearLayout
+            android:id="@+id/user_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/regis_phoneNO"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/register_whitebg"
+                android:hint="手机号"
+                android:textColorHint="#66000000"
+                android:singleLine="true"
+                android:imeOptions="flagNoExtractUi"
+                android:paddingLeft="8dp"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/regis_password"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
+                 android:singleLine="true"
+                android:background="@drawable/register_whitebg"
+                android:hint="密码,6-18位英文和数字结合"
+                android:textColorHint="#66000000"
+                android:imeOptions="flagNoExtractUi"
+                android:inputType="textPassword"
+                android:paddingLeft="8dp"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp" >
+
+                <EditText
+                    android:id="@+id/regis_code"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/register_whitebg"
+                    android:hint="验证码"
+                     android:singleLine="true"
+                    android:textColorHint="#66000000"
+                    android:imeOptions="flagNoExtractUi"
+                    android:paddingLeft="8dp"
+                    android:textColor="#000"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/getcode"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_alignBottom="@id/regis_code"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/regis_code"
+                    android:layout_weight="1"
+                    android:background="@drawable/register_whitebg"
+                    android:focusable="true"
+                    android:gravity="center"
+                    android:text="获取验证码"
+                    android:textColor="#34d3ca"
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/register_submit"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_below="@id/user_layout"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btsbg"
+            android:gravity="center"
+            android:focusable="true"
+            android:text="注册"
+            android:textColor="#fff"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

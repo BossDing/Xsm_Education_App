@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="sexArray">
+        <item></item>
+        <item>男</item>
+        <item>女</item>
+    </string-array>
+    <string-array name="detailSing">
+        <item>关闭</item>
+        <item>5分钟后</item>
+        <item>10分钟后</item>
+        <item>15分钟后</item>
+        <item>当单集结束时</item>
+    </string-array>
+
+</resources>

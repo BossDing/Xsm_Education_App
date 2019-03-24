@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/homebg"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/id_home_likeSingImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/id_home_likeLinkImg"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="60dp"
+        android:src="@drawable/btbg" />
+
+    <ImageView
+        android:id="@+id/id_home_likeLinkImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/id_home_likeSingImg"
+        android:layout_marginLeft="95dp"
+        android:src="@drawable/btbg" />
+
+    <ImageView
+        android:id="@+id/id_home_likeReadImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="49dp"
+        android:src="@drawable/btbg" />
+
+    <ImageView
+        android:id="@+id/id_home_likeSocialImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/id_home_likeReadImg"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/btbg" />
+
+    <ImageView
+        android:id="@+id/id_home_likeSeeImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/btbg" />
+
+    <ImageView
+        android:id="@+id/id_home_likeStudyImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="33dp"
+        android:layout_marginLeft="0dp"
+        android:layout_toRightOf="@+id/id_home_likeLinkImg"
+        android:src="@drawable/btbg" />
+
+</RelativeLayout>

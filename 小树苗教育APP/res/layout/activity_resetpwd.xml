@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <include
+        android:id="@+id/reset_titlebar"
+        layout="@layout/top_title_layout" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/reset_titlebar"
+        android:background="@color/activity_getaccount_bg" >
+
+        <EditText
+            android:id="@+id/inputnewpwd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/account_login_getaccount_leftmargin"
+            android:layout_marginRight="@dimen/account_login_getaccount_marginright"
+            android:layout_marginTop="@dimen/account_login_getaccount_margintop"
+            android:background="@drawable/card_edittext_shape"
+            android:hint="@string/inputnewpasword"
+            android:inputType="textPassword"
+            android:singleLine="true"
+            android:imeOptions="flagNoExtractUi"
+            android:textColor="@color/hinttextcolor"
+            android:textColorHint="#66000000" />
+
+        <TextView
+            android:id="@+id/getcode_submit"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/inputnewpwd"
+            android:layout_marginLeft="@dimen/account_login_getaccount_leftmargin"
+            android:layout_marginRight="@dimen/account_login_getaccount_marginright"
+            android:layout_marginTop="@dimen/account_login_getaccount_margintop"
+            android:background="@drawable/btsbg"
+            android:gravity="center"
+            android:text="@string/submit"
+            android:textColor="@color/next_step"
+            android:textSize="@dimen/account_login_nextstep_textsize" />
+    </RelativeLayout>
+
+</RelativeLayout>

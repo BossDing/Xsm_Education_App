@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/containerMagId"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/topLayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#01355a" >
+
+        <ImageView
+            android:id="@+id/activity_magazine_backImg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/baby_back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="往期期刊"
+            android:textColor="#ffffff"
+            android:textSize="22sp" />
+
+        <ImageView
+            android:id="@+id/activity_magazine_rightImg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/provicecity"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/topLayout"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:background="#088bd9"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/wqlayout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="10dp" >
+
+                <ImageView
+                    android:id="@+id/wqp1"
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/wqb11" />
+
+                <TextView
+                    android:id="@+id/wqt1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_toRightOf="@+id/wqp1"
+                    android:text="亲子悦读"
+                    android:textColor="#222222"
+                    android:textSize="20sp" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/wqlayout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="10dp" >
+
+                <ImageView
+                    android:id="@+id/wqp2"
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/wqb21" />
+
+                <TextView
+                    android:id="@+id/wqt2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_toRightOf="@+id/wqp2"
+                    android:text="宝宝爱学"
+                    android:textColor="#ffffff"
+                    android:textSize="20sp" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/wqlayout3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="10dp" >
+
+                <ImageView
+                    android:id="@+id/wqp3"
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/wqb31" />
+
+                <TextView
+                    android:id="@+id/wqt3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_toRightOf="@+id/wqp3"
+                    android:text="宝宝爱听"
+                    android:textColor="#ffffff"
+                    android:textSize="20sp" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/wqlayout4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="10dp" >
+
+                <ImageView
+                    android:id="@+id/wqp4"
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/wqb41" />
+
+                <TextView
+                    android:id="@+id/wqt4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_toRightOf="@+id/wqp4"
+                    android:text="宝宝爱看"
+                    android:textColor="#ffffff"
+                    android:textSize="20sp" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/wqlayout5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="10dp" >
+
+                <ImageView
+                    android:id="@+id/wqp5"
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/wqb51" />
+
+                <TextView
+                    android:id="@+id/wqt5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_toRightOf="@+id/wqp5"
+                    android:text="幼小衔接"
+                    android:textColor="#ffffff"
+                    android:textSize="20sp" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#D9EBB1"
+            android:padding="5dp" >
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/id_recyclerview_horizontal1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:background="#D9EBB1"
+                android:scrollbars="none" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

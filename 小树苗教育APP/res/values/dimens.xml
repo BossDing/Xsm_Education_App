@@ -1,0 +1,16 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- 输入账号找回密码页面 -->
+    <dimen name="account_login_getaccount_leftmargin">50dp</dimen>
+    <dimen name="account_login_getaccount_margintop">16dp</dimen>
+    <dimen name="account_login_getaccount_marginright">50dp</dimen>
+    <dimen name="account_login_nextstep_textsize">16sp</dimen>
+    
+    <dimen name="poptextsize">14sp</dimen>
+    
+
+</resources>

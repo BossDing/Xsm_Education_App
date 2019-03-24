@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="activity_getaccount_bg">#e8e8e8</color>
+    <color name="next_step">#ffffff</color>
+    <color name="hinttextcolor">#000000</color>
+    <color name="getcodecolor">#34d3ca</color>
+    <color name="popcolor">#4e150d</color>
+    <color name="popupcolors">#ff0046ff</color>
+    <color name="white">#00000000</color>
+
+</resources>
